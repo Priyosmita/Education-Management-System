@@ -1,10 +1,18 @@
 import React from 'react'
 import Header from './components/Header'
+import Navbar from './components/Navbar'
 
 const page = () => {
   return (
     <>
-    <Header/>
+      <div className='min-h-screen bg-gray-300'> 
+        <Header />
+
+        <div className='p-6'>
+          <Navbar />
+        </div>
+        
+      </div>
     </>
   )
 }
